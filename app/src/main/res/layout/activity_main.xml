@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/i1"
+    android:background="#F8F8F8"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/i2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/i3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/i2"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-smallcaps"
+
+        android:text="BUNDO KHAN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#F41313"
+        android:textSize="30dp" />
+</RelativeLayout>
